@@ -9,4 +9,9 @@ if m1 >= 60 and m2 >= 60 and m3 >= 60 and m4 >= 60:
 else:
     
 
+<<<<<<< Updated upstream
        
+=======
+average = (m1+m2+m3+m4)/4
+
+>>>>>>> Stashed changes
