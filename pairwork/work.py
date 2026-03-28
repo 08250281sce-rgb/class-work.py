@@ -11,6 +11,7 @@ attendance = float (input("enter your total attendance:"));
 if (attendance >70):
     print("you are eligible for the exam")
 else:
+<<<<<<< Updated upstream
     print("you are short of attendance, so not eligible to write exam.") 
 if (average >40):
     print(" congargulation! you have passed the exam")
@@ -31,3 +32,5 @@ if (average >90):
     print("eligible for the reward")
 else:
     print("reward is not posiible this time,try next semester.")
+=======
+>>>>>>> Stashed changes
