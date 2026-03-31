@@ -10,9 +10,14 @@ print ("The average of your marks is ""%.2f" % (average))
 attendance = float (input("enter your total attendance:"));
 if (attendance >70):
     print("you are eligible for the exam")
+else: 
+    print("you are not eligible for the exam")
+
+if (average >90):
+    print("eligible for the reward")
 else:
-<<<<<<< Updated upstream
-    print("you are short of attendance, so not eligible to write exam.") 
+    print("reward is not posiible this time,try next semester.")
+
 if (average >40):
     print(" congargulation! you have passed the exam")
 else:
@@ -28,9 +33,3 @@ elif (average >= 60):
     print("Grade D")
 elif (average >= 50):
     print("Grade E")  
-if (average >90):
-    print("eligible for the reward")
-else:
-    print("reward is not posiible this time,try next semester.")
-=======
->>>>>>> Stashed changes
